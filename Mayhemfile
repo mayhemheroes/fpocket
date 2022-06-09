@@ -1,7 +1,6 @@
-project: rnshah9/fpocket
+project: fpocket
 target: fpocket
-tests: null
 
 cmds:
-  - cmd: /repo/bin/fpocket -f @@
+  - cmd: /repo/bin/fpocket -f /test.pdb
     filepath: /test.pdb
