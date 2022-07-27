@@ -3,3 +3,4 @@ target: fpocket
 
 cmds:
   - cmd: /fpocket -f @@
+    filepath: /test.pdb
