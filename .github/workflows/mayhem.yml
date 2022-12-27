@@ -59,7 +59,8 @@ jobs:
       fail-fast: false
       matrix:
         mayhemfile:
-          - mayhem/Mayhemfile
+          - mayhem/Mayhemfile_remove_path
+          - mayhem/Mayhemfile_fpocket
 
     steps:
       - uses: actions/checkout@v3

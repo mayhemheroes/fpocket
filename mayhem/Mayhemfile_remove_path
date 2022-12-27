@@ -1,0 +1,5 @@
+project: fpocket
+target: remove-path
+
+cmds:
+  - cmd: /fuzz_remove_path
