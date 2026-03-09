@@ -79,7 +79,7 @@ static const char atomSiteHeader[] =
 
 void write_each_pocket_for_DB(const char out_path[], c_lst_pockets *pockets, s_pdb *pdb) {
     int out_len = strlen(out_path);
-    char out[out_len + 20];
+    char out[out_len + 40];
     out[0] = '\0';
 
     node_pocket *pcur;
@@ -500,7 +500,7 @@ void write_mdpockets_concat_pqr(FILE *f, c_lst_pockets *pockets) {
  */
 void write_each_pocket(const char out_path[], c_lst_pockets *pockets) {
     int out_len = strlen(out_path);
-    char out[out_len + 20];
+    char out[out_len + 40];
     out[0] = '\0';
 
     node_pocket *pcur;
