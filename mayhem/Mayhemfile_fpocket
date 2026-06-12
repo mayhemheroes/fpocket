@@ -5,4 +5,3 @@ cmds:
   - cmd: /fpocket -f @@
     env:
       MFUZZ_COMPAT_LEVEL: '1'
-    filepath: /test.pdb
